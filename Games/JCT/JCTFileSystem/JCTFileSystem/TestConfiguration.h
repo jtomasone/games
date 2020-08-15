@@ -1,1 +1,0 @@
-#define FILE_TESTS 1
