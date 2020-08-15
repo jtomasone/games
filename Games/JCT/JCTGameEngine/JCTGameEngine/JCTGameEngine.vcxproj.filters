@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="JCTCube.cpp" />
+    <ClCompile Include="JCTGLBase.cpp" />
+    <ClCompile Include="JCTGLControl.cpp" />
+    <ClCompile Include="JCTGeometry.cpp" />
+    <ClCompile Include="JCTSphere.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\JCTCube.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\JCTGeometry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\JCTSphere.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\JCTGLBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\JCTGLControl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{d49f8f57-46d0-4e0b-9d49-7244d1ac0385}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

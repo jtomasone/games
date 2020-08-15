@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JCTMemoryManager", "JCTMemoryManager\JCTMemoryManager.vcproj", "{DB2D7C1A-E8ED-4139-8C45-555AD7E74D70}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A42741B3-CAAB-4D87-9201-D6FE4AE50870} = {A42741B3-CAAB-4D87-9201-D6FE4AE50870}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JCTMm", "JCTMm\JCTMm.vcproj", "{A42741B3-CAAB-4D87-9201-D6FE4AE50870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB2D7C1A-E8ED-4139-8C45-555AD7E74D70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB2D7C1A-E8ED-4139-8C45-555AD7E74D70}.Debug|Win32.Build.0 = Debug|Win32
+		{DB2D7C1A-E8ED-4139-8C45-555AD7E74D70}.Release|Win32.ActiveCfg = Release|Win32
+		{DB2D7C1A-E8ED-4139-8C45-555AD7E74D70}.Release|Win32.Build.0 = Release|Win32
+		{A42741B3-CAAB-4D87-9201-D6FE4AE50870}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A42741B3-CAAB-4D87-9201-D6FE4AE50870}.Debug|Win32.Build.0 = Debug|Win32
+		{A42741B3-CAAB-4D87-9201-D6FE4AE50870}.Release|Win32.ActiveCfg = Release|Win32
+		{A42741B3-CAAB-4D87-9201-D6FE4AE50870}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

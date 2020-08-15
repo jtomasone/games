@@ -1,0 +1,33 @@
+﻿Build started 11/20/2011 10:24:46 AM.
+     1>Project "C:\Dev\Source\Projects\jtomasone\JCTGameEngine\JCTGameEngine\JCTGameEngine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\JCTGameEngine.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\shared /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt JCTCube.cpp JCTGLControl.cpp JCTGeometry.cpp
+         JCTGeometry.cpp
+         JCTCube.cpp
+         Generating Code...
+         Compiling...
+         JCTGLControl.cpp
+     1>c:\dev\source\projects\jtomasone\include\jctglcontrol.h(60): warning C4172: returning address of local variable or temporary
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Dev\Source\Projects\jtomasone\JCTGameEngine\Debug\JCTGameEngine.lib) does not match the Library's OutputFile property value (C:\Dev\Source\Projects\jtomasone\Lib\JCTGameEngineDebug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(JCTGameEngine) does not match the Library's OutputFile property value (JCTGameEngineDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\Lib\JCTGameEngineDebug.lib" glu32.lib opengl32.lib wininet.lib /LIBPATH:..\..\lib /NOLOGO Debug\JCTCube.obj
+         Debug\JCTGeometry.obj
+         Debug\JCTGLBase.obj
+         Debug\JCTGLControl.obj
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in glu32.lib(GLU32.dll); second definition ignored
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>wininet.lib(WININET.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in glu32.lib(GLU32.dll); second definition ignored
+     1>wininet.lib(WININET.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         JCTGameEngine.vcxproj -> C:\Dev\Source\Projects\jtomasone\JCTGameEngine\Debug\JCTGameEngine.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\JCTGameEngine.unsuccessfulbuild".
+         Touching "Debug\JCTGameEngine.lastbuildstate".
+     1>Done Building Project "C:\Dev\Source\Projects\jtomasone\JCTGameEngine\JCTGameEngine\JCTGameEngine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.80

@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JCTGameEngine", "JCTGameEngine\JCTGameEngine.vcxproj", "{F16AB989-2983-4C3E-B60A-17A24D59ADE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A753703-FE79-4016-97A5-BD0D0716781B} = {4A753703-FE79-4016-97A5-BD0D0716781B}
+		{5122B556-8547-48D7-ACF6-1466C0180FF4} = {5122B556-8547-48D7-ACF6-1466C0180FF4}
+		{A42741B3-CAAB-4D87-9201-D6FE4AE50870} = {A42741B3-CAAB-4D87-9201-D6FE4AE50870}
+		{698998D4-D127-44C5-AD15-5D85146B4359} = {698998D4-D127-44C5-AD15-5D85146B4359}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathEngine", "..\Engine_Math_Library_dist\MathEngine\MathEngine.vcxproj", "{5122B556-8547-48D7-ACF6-1466C0180FF4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JCTMm", "..\JCTMemoryManager\JCTMm\JCTMm.vcxproj", "{A42741B3-CAAB-4D87-9201-D6FE4AE50870}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JCTPCSTree", "..\JCTPCSTree\JCTPCSTree\JCTPCSTree.vcxproj", "{698998D4-D127-44C5-AD15-5D85146B4359}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JCTFileSystem", "..\JCTFileSystem\JCTFileSystem\JCTFileSystem.vcxproj", "{4A753703-FE79-4016-97A5-BD0D0716781B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JCTGame", "..\JCTGame\JCTGame\JCTGame.vcxproj", "{03A28D35-44F4-43BF-8220-65DC1D2CE86A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F16AB989-2983-4C3E-B60A-17A24D59ADE8} = {F16AB989-2983-4C3E-B60A-17A24D59ADE8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F16AB989-2983-4C3E-B60A-17A24D59ADE8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F16AB989-2983-4C3E-B60A-17A24D59ADE8}.Debug|Win32.Build.0 = Debug|Win32
+		{F16AB989-2983-4C3E-B60A-17A24D59ADE8}.Release|Win32.ActiveCfg = Release|Win32
+		{F16AB989-2983-4C3E-B60A-17A24D59ADE8}.Release|Win32.Build.0 = Release|Win32
+		{5122B556-8547-48D7-ACF6-1466C0180FF4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5122B556-8547-48D7-ACF6-1466C0180FF4}.Debug|Win32.Build.0 = Debug|Win32
+		{5122B556-8547-48D7-ACF6-1466C0180FF4}.Release|Win32.ActiveCfg = Release|Win32
+		{5122B556-8547-48D7-ACF6-1466C0180FF4}.Release|Win32.Build.0 = Release|Win32
+		{A42741B3-CAAB-4D87-9201-D6FE4AE50870}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A42741B3-CAAB-4D87-9201-D6FE4AE50870}.Debug|Win32.Build.0 = Debug|Win32
+		{A42741B3-CAAB-4D87-9201-D6FE4AE50870}.Release|Win32.ActiveCfg = Release|Win32
+		{A42741B3-CAAB-4D87-9201-D6FE4AE50870}.Release|Win32.Build.0 = Release|Win32
+		{698998D4-D127-44C5-AD15-5D85146B4359}.Debug|Win32.ActiveCfg = Debug|Win32
+		{698998D4-D127-44C5-AD15-5D85146B4359}.Debug|Win32.Build.0 = Debug|Win32
+		{698998D4-D127-44C5-AD15-5D85146B4359}.Release|Win32.ActiveCfg = Release|Win32
+		{698998D4-D127-44C5-AD15-5D85146B4359}.Release|Win32.Build.0 = Release|Win32
+		{4A753703-FE79-4016-97A5-BD0D0716781B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A753703-FE79-4016-97A5-BD0D0716781B}.Debug|Win32.Build.0 = Debug|Win32
+		{4A753703-FE79-4016-97A5-BD0D0716781B}.Release|Win32.ActiveCfg = Release|Win32
+		{4A753703-FE79-4016-97A5-BD0D0716781B}.Release|Win32.Build.0 = Release|Win32
+		{03A28D35-44F4-43BF-8220-65DC1D2CE86A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03A28D35-44F4-43BF-8220-65DC1D2CE86A}.Debug|Win32.Build.0 = Debug|Win32
+		{03A28D35-44F4-43BF-8220-65DC1D2CE86A}.Release|Win32.ActiveCfg = Release|Win32
+		{03A28D35-44F4-43BF-8220-65DC1D2CE86A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
